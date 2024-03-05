@@ -14,13 +14,13 @@
 			"jdkDistro": "ms"
 		},
 		"ghcr.io/nordcominc/devcontainer-features/android-sdk:1": {}
-	},
+	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": ".devcontainer/install.sh"
+	// "postCreateCommand": "",
 
 	// Configure tool-specific properties.
 	// "customizations": {},
