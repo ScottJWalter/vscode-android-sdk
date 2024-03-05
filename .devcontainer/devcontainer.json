@@ -20,7 +20,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "./devcontainer/install.sh",
+	"postCreateCommand": ".devcontainer/install.sh"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
