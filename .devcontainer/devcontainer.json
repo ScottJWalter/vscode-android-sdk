@@ -1,9 +1,12 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
-	"name": "Ubuntu",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"name": "VSCode + Android SDK + Kotlin",
+
 	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
 		"ghcr.io/devcontainers-contrib/features/ant-sdkman:2": {
 			"version": "latest",
@@ -11,10 +14,7 @@
 			"jdkDistro": "ms"
 		},
 		"ghcr.io/nordcominc/devcontainer-features/android-sdk:1": {}
-	}
-
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
@@ -24,6 +24,11 @@
 
 	// Configure tool-specific properties.
 	// "customizations": {},
+
+	// Set SECURITY-SAFE environment variables (do NOT use this to store secrets and keys)
+	"remoteEnv": {
+		"PATH": "$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/emulator"
+	}
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
