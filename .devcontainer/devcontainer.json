@@ -14,6 +14,14 @@
 			"jdkDistro": "ms"
 		},
 		"ghcr.io/nordcominc/devcontainer-features/android-sdk:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"adelphes.android-dev-ext",
+				"mathiasfrohlich.Kotlin"
+			]
+		}
 	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
