@@ -19,7 +19,27 @@
 		"vscode": {
 			"extensions": [
 				"adelphes.android-dev-ext",
-				"mathiasfrohlich.Kotlin"
+				"mathiasfrohlich.Kotlin",
+				"aaron-bond.better-comments",
+				"alefragnani.Bookmarks",
+				"kamikillerto.vscode-colorize",
+				"ms-azuretools.vscode-docker",
+				"vscjava.vscode-java-pack",
+				"donjayamanne.githistory",
+				"GitHub.copilot",
+				"GitHub.copilot-chat",
+				"GitHub.heygithub",
+				"eamodio.gitlens",
+				"vscjava.vscode-gradle",
+				"oderwat.indent-rainbow",
+				"VisualStudioExptTeam.intellicode-api-usage-examples",
+				"fwcd.kotlin",
+				"yzhang.markdown-all-in-one",
+				"esbenp.prettier-vscode",
+				"chrmarti.regex",
+				"wayou.vscode-todo-highlight",
+				"vscode-icons-team.vscode-icons",
+				"HarryHopkinson.vs-code-runner"
 			]
 		}
 	}
