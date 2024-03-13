@@ -7,13 +7,14 @@
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	"features": {
+ 	"features": {
 		"ghcr.io/devcontainers-contrib/features/ant-sdkman:2": {
 			"version": "latest",
 			"jdkVersion": "latest",
 			"jdkDistro": "ms"
 		},
-		"ghcr.io/nordcominc/devcontainer-features/android-sdk:1": {}
+		"ghcr.io/nordcominc/devcontainer-features/android-sdk:1": {},
+ 		"ghcr.io/devcontainers/features/github-cli:1": {}
 	},
 	"customizations": {
 		"vscode": {
