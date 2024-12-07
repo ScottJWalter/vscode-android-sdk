@@ -6,6 +6,8 @@
 
 	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 
+	"runArgs": ["--device=/dev/net/tun"],
+
 	"features": {
 		"ghcr.io/devcontainers/features/java:latest": {
 			"installGradle": true,
@@ -26,7 +28,8 @@
 		"ghcr.io/akhildevelops/devcontainer-features/android-cli:latest": {
 			"PACKAGES": "platform-tools,platforms;android-33,build-tools;33.0.2"
 		},
- 		"ghcr.io/devcontainers/features/github-cli:1": {}
+ 		"ghcr.io/devcontainers/features/github-cli:1": {},
+	        "ghcr.io/tailscale/codespace/tailscale": {}
 	},
 	"customizations": {
 		"vscode": {
