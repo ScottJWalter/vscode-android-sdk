@@ -29,8 +29,7 @@
 			"PACKAGES": "platform-tools,platforms;android-33,build-tools;33.0.2"
 		},
 		"ghcr.io/devcontainers/features/github-cli:1": {},
-		"ghcr.io/ebaskoro/devcontainer-features/sdkman:1": {},
-		"ghcr.io/devcontainers-extra/features/kotlin-sdkman:2": {},
+		"ghcr.io/mikaello/devcontainer-features/kotlinc":1,
 		"ghcr.io/tailscale/codespace/tailscale": {}
 	},
 	"customizations": {
